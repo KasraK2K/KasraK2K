@@ -95,6 +95,8 @@ Systems I have designed and built that did not exist before, several of which ar
 | **[SchemaLoom](https://github.com/KasraK2K/SchemaLoom)** | Visual database design workspace: ERD canvas, per-object documentation, and an AI query assistant scoped strictly to what the user has selected and is permitted to see. SQL import, per-area sharing permissions. | TypeScript |
 | **[ReqLoom](https://github.com/KasraK2K/ReqLoom)** | Self-hosted API workspace for building, sending, organising and tracing HTTP requests, with environments, history, Postman import and realtime team sync. | TypeScript |
 | **[PM2Operator](https://github.com/KasraK2K/PM2Operator)** | Full-stack PM2 operations console for managing remote SSH hosts, inspecting Node.js processes, streaming live logs and running PM2 actions from a shared dashboard. | TypeScript |
+| **[nexora-platform-core](https://github.com/KasraK2K/nexora-platform-core)** | Product-neutral NestJS modular monolith for multi-workspace SaaS, built on a deliberately minimal five-concept domain model. Security-first by design: Argon2id hashing, opaque rotatable sessions, deny-by-default route admission, PostgreSQL-authoritative tenant checks, Redis-backed distributed rate limiting, serializable transactions, an encrypted durable mail outbox with fencing and retries, and cross-tenant rejection test coverage. Fully documented with a project tour and module catalog. | TypeScript · NestJS · Prisma |
+| **[ReactDetector](https://github.com/KasraK2K/ReactDetector)** | Local CLI inspector for React and Next.js applications. Starts or attaches to a dev server, lets you click any visible element in a browser UI, and generates an AI-ready context prompt for Codex, Cursor or ChatGPT — closing the gap between a running UI and an AI coding assistant. Playwright-tested. | TypeScript · MIT |
 | **[TranslateHub](https://github.com/KasraK2K/TranslateHub)** | Self-hosted translation management platform that moves application copy out of the codebase and serves it at runtime via API, with a web admin UI. | JavaScript · MIT |
 | **[go-simple-monitoring](https://github.com/KasraK2K/go-simple-monitoring)** | Infrastructure monitoring tool aggregating CPU, RAM and PM2 service metrics from multiple servers into a single dashboard, with optional GUI mode. **Adopted across multiple companies.** | Go |
 | **[Cloak-Windows](https://github.com/KasraK2K/Cloak-Windows)** | Windows port of an SNI-spoofing and Xray-based internet access tool, extending open internet access to a platform the original did not support. | Python · GPL-3.0 |
@@ -105,6 +107,20 @@ Systems I have designed and built that did not exist before, several of which ar
 
 ---
 
+## Upstream Open Source Contributions
+
+Contributions submitted to projects maintained by others, including major framework and infrastructure repositories. Status shown as recorded on GitHub.
+
+| Project | Contribution | Status |
+| :-- | :-- | :-- |
+| **[vuejs/core](https://github.com/vuejs/core)** | [#15240](https://github.com/vuejs/core/pull/15240) — `types(runtime-dom): allow null native attribute values`. Diagnosed and fixed a long-standing type defect ([issue #8600](https://github.com/vuejs/core/issues/8600)) where `null` binding values triggered type errors on DOM attributes; applied nullability at the `NativeElements` boundary so component prop contracts remain unchanged, with declaration tests for global, SVG and ARIA attributes. | Open — triaged and labelled `scope: types` by a Vue core maintainer |
+| **[digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)** | [#466](https://github.com/digitalocean/nginxconfig.io/pull/466) — authored the complete **Persian (Farsi) localisation** for DigitalOcean's NGINX configuration generator, making the tool accessible to Persian-speaking engineers worldwide. | **Merged** |
+| **[Treblle/treblle-node](https://github.com/Treblle/treblle-node)** | [#7](https://github.com/Treblle/treblle-node/pull/7) — added TypeScript module declarations to resolve import errors for all TypeScript consumers of the SDK. | **Merged** |
+| **[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)** | [#59243](https://github.com/DefinitelyTyped/DefinitelyTyped/pull/59243) — proposed `@types/treblle` type definitions to the canonical TypeScript definitions repository. | Submitted |
+| **[StuartApp/stuart-client-js](https://github.com/StuartApp/stuart-client-js)** | [#34](https://github.com/StuartApp/stuart-client-js/pull/34) — type declarations to fix TypeScript import failures in the Stuart delivery API client. | Submitted |
+
+---
+
 ## Community, Mentorship &amp; Knowledge Sharing
 
 Teaching has been part of my practice since I started programming in 2010.
@@ -112,7 +128,7 @@ Teaching has been part of my practice since I started programming in 2010.
 - **Run regular internal training** across JavaScript, TypeScript, Node.js, React and Vue, raising the technical level of entire engineering departments.
 - **Lead periodic code reviews** and own code quality standards across backend and frontend projects.
 - **Publish open educational material** — [You-Dont-Know-JavaScript](https://github.com/KasraK2K/You-Dont-Know-JavaScript), [goLang-Course](https://github.com/KasraK2K/goLang-Course), [Event-Loop-Course](https://github.com/KasraK2K/Event-Loop-Course) and [Made-In-Iran-APIs](https://github.com/KasraK2K/Made-In-Iran-APIs), a community-referenced index of public APIs.
-- **Contribute upstream** to the wider ecosystem, including the [Vue.js](https://github.com/vuejs/core) organisation.
+- **Answer technical questions publicly** on the [GitHub Community forum](https://github.com/orgs/community/discussions), covering Node.js TCP socket backpressure and payload framing, CI/CD deployment strategy, and React/Next.js architecture.
 - **Recognitions** — **GitHub Developer Program Member**, **Arctic Code Vault Contributor**, Pair Extraordinaire ×3, Pull Shark ×2, with **205 repositories** and **1,270+ contributions** in the past year.
 
 ---
