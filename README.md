@@ -105,8 +105,6 @@ Systems I have designed and built that did not exist before, several of which ar
 | **[rust-cli-ts](https://github.com/KasraK2K/rust-cli-ts)** · **[rust-cleanup](https://github.com/KasraK2K/rust-cleanup)** | Rust command-line tooling for TypeScript project scaffolding and resource-critical Linux maintenance. | Rust |
 | **[project-base-recsys](https://github.com/KasraK2K/project-base-recsys)** · **[RecSysMovie](https://github.com/KasraK2K/RecSysMovie)** | Recommender-system research and reference implementations underpinning production personalisation work. | Python |
 
----
-
 ## Upstream Open Source Contributions
 
 Contributions submitted to projects maintained by others, including major framework and infrastructure repositories. Status shown as recorded on GitHub.
