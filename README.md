@@ -173,15 +173,6 @@ Teaching has been part of my practice since I started programming in 2010.
 
 ---
 
-<div align="center">
-
-<img height="150" alt="GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=KasraK2K&show_icons=true&hide_border=true&include_all_commits=true&count_private=true"/>
-<img height="150" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KasraK2K&layout=compact&hide_border=true&langs_count=8"/>
-
-</div>
-
----
-
 ## Contact
 
 I am always open to conversations about **engineering leadership, distributed systems architecture, applied AI**, and collaboration with teams building ambitious products.
